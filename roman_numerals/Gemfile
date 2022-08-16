@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+ruby '2.7.5'
+
+gem 'minitest'
+gem 'minitest-reporters'
+gem 'rake'
+gem 'bundler-gem_tasks'
