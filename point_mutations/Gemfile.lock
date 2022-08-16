@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    minitest (2.12.1)
+    minitest-reporters (0.6.0)
+      ansi
+      minitest (~> 2.0)
+      ruby-progressbar
+    rake (13.0.6)
+    ruby-progressbar (1.11.0)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  minitest
+  minitest-reporters (~> 0.6.0)
+  rake
+
+RUBY VERSION
+   ruby 2.7.5p203
+
+BUNDLED WITH
+   2.3.19
