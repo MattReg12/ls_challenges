@@ -13,7 +13,6 @@ P:
 -top half is ascending order
 -bottom half is desc order
 
-
 E:
 -single letter A returns just A with new line
 -supplied letter is mid
