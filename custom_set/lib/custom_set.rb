@@ -41,8 +41,6 @@ A
 
 =end
 
-require 'pry'
-
 class CustomSet
   attr_reader :elements
 
@@ -73,12 +71,22 @@ class CustomSet
   alias_method :==, :eql?
 
   def add(element)
-    temp = CustomSet.new(elements)
-    temp.elements << element unless temp.elements.include?(element)
-    temp
+    elements << element unless elements.include?(element)
+    self
   end
 
+  def intersection(other)
+    intersection = elements & other.elements
+    CustomSet.new(intersection)
+  end
 
+  def difference(other)
+    difference = elements - other.elements
+    CustomSet.new(difference)
+  end
 
-
+  def union(other)
+    union = (elements + other.elements).uniq
+    CustomSet.new(union)
+  end
 end
