@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    hashie (5.0.0)
+    minitest (2.12.1)
+    minitest-reporters (0.14.24)
+      ansi
+      builder
+      minitest (>= 2.12, < 5.0)
+      powerbar
+    powerbar (2.0.1)
+      hashie (>= 1.1.0)
+    rake (13.0.6)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  minitest (~> 2.10)
+  minitest-reporters
+  rake
+
+RUBY VERSION
+   ruby 2.7.5p203
+
+BUNDLED WITH
+   2.3.19
